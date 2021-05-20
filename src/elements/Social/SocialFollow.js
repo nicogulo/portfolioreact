@@ -5,6 +5,7 @@ import {
   faFacebook,
   faTwitter,
   faInstagram,
+  faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 
 import './index.scss';
