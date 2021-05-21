@@ -14,7 +14,7 @@ import '../elements/Social/index.scss';
 
 export default function MostPicked(props) {
   return (
-    <section className="container pt-4">
+    <section className="container pt-4" ref={props.refMostPicked}>
       <Fade bottom>
         <h4>About Me</h4>
         <div className="row align-items-center">
