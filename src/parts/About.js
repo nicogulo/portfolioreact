@@ -9,12 +9,13 @@ import {
   faReact,
   faJs,
 } from '@fortawesome/free-brands-svg-icons';
+import CV from 'assets/CV.pdf';
 
 import '../elements/Social/index.scss';
 
 export default function About(props) {
   return (
-    <section className="container pt-4" ref={props.refAbout}>
+    <section className="container pt-5" ref={props.refAbout}>
       <Fade bottom>
         <h4>About Me</h4>
         <div className="row align-items-center">
@@ -50,14 +51,16 @@ export default function About(props) {
             </p>
           </div>
           <div className="col-6 pr-2 text-center" style={{ width: 530 }}>
-            <Button
-              className="btn px-5"
-              hasShadow
-              isPrimary
-              style={{ borderRadius: 30 }}
-            >
-              Download CV
-            </Button>
+            <a href={CV} target="blank">
+              <Button
+                className="btn px-5"
+                hasShadow
+                isPrimary
+                style={{ borderRadius: 30 }}
+              >
+                Download CV
+              </Button>
+            </a>
           </div>
         </div>
       </Fade>
