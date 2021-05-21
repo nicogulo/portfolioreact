@@ -1,6 +1,6 @@
-import React from "react";
-import Button from "elements/Button";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import Button from 'elements/Button';
+import Fade from 'react-reveal/Fade';
 
 export default function Categories({ data }) {
   return data.map((category, index1) => {
@@ -26,7 +26,7 @@ export default function Categories({ data }) {
                       <div className="card">
                         {item.isPopular && (
                           <div className="tag">
-                            Popular{" "}
+                            Popular{' '}
                             <span className="font-weight-light">Choice</span>
                           </div>
                         )}
@@ -37,15 +37,15 @@ export default function Categories({ data }) {
                             className="img-cover"
                           />
                         </figure>
-                        <div className="meta-wrapper">
+                        <div className="meta-wrapper mb-2">
                           <Button
                             type="link"
                             href={`/properties/${item._id}`}
                             className="stretched-link d-blok text-gray-800"
                           >
-                            <h5 className="h4">{item.name}</h5>
+                            <h5 className="h4 px-2">{item.name}</h5>
                           </Button>
-                          <span className="text-grey-500">
+                          <span className="text-grey-500 px-2">
                             {item.city}, {item.country}
                           </span>
                         </div>
