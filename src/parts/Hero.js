@@ -7,9 +7,9 @@ import ImageHero_ from 'assets/images/img-hero-frame.jpg';
 import Button from 'elements/Button';
 
 export default function Hero(props) {
-  function ShowMostPicked() {
+  function ShowAbout() {
     window.scrollTo({
-      top: props.refMostPicked.current.offsetTop - 30,
+      top: props.refAbout.current.offsetTop - 30,
       behavior: 'smooth',
     });
   }
@@ -27,7 +27,7 @@ export default function Hero(props) {
             <Button
               className="btn btn-lang px-5"
               hasShadow
-              onClick={ShowMostPicked}
+              onClick={ShowAbout}
               style={{ borderRadius: 30 }}
             >
               Scroll Down
