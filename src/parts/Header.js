@@ -37,7 +37,7 @@ export default function Header(props) {
                 </li>
                 <li className={`nav-item${getNavLinkClass('/brows-by')}`}>
                   <Button className="nav-link" type="link" href="/brows-by">
-                    About me
+                    About
                   </Button>
                 </li>
                 <li className={`nav-item${getNavLinkClass('/stories')}`}>
