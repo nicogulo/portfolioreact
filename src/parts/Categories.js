@@ -7,7 +7,15 @@ export default function Categories({ data }) {
     return (
       <section className="container" key={`category-${index1}`}>
         <Fade bottom>
-          <h4 className="mb-3 font-weight-medium">{category.name}</h4>
+          <div className="row mb-3 font-weight-medium">
+            <h4 className="col-1">{category.name}</h4>{' '}
+            <img
+              className="col-1"
+              src={category.logo}
+              alt=""
+              style={{ height: 32, paddingLeft: 0 }}
+            />
+          </div>
           <div className="container-grid">
             {category.items.length === 0 ? (
               <div className="row">

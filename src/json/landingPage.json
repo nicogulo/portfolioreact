@@ -60,12 +60,14 @@
     {
       "_id": "asd1293uasdads1",
       "name": "Github",
+      "logo": "/images/icon-github.svg",
       "items": [
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
           "imageUrl": "/images/image-category-1.jpg",
           "country": "South Korea",
+
           "city": "Seoul Flore",
           "isPopular": true
         },
@@ -97,7 +99,7 @@
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Hotels with large living room",
+      "name": "Design",
       "items": [
         {
           "_id": "asd1293uasdads1",
