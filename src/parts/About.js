@@ -23,16 +23,27 @@ export default function About(props) {
               className="h5 mb-4 font-weight-light"
               style={{ lineHeight: '170%' }}
             >
-              Saya adalah Mahasiswa semester Akhir dari Institut teknologi PLN
+              Saya adalah Mahasiswa semester akhir dari Institut teknologi PLN
               Jakarta. Saat Ini saya sedang mendalami Frontend Web Developer,
-              dan sudah terbiasa munggunaka HTML, CSS, dan
+              dan sangat menyukai teknologi
+              <Button
+                className="btn-lang px-4 mx-3"
+                hasShadow
+                style={{ borderRadius: 30 }}
+              >
+                React{' '}
+                <a href="https://www.reactjs.org/" className="react px-2">
+                  <FontAwesomeIcon icon={faReact} size="2x" />
+                </a>
+              </Button>
+              dan
               <Button
                 className="btn-lang px-4 mx-3"
                 hasShadow
                 style={{ borderRadius: 30 }}
               >
                 JavaScript{' '}
-                <a href="https://www.javascript.com/" className="js lang">
+                <a href="https://www.javascript.com/" className="js px-2">
                   <FontAwesomeIcon icon={faJs} size="2x" />
                 </a>
               </Button>
