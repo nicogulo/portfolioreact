@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'elements/Button';
 import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Categories({ data }) {
   return data.map((category, index1) => {
@@ -66,6 +67,17 @@ export default function Categories({ data }) {
                 );
               })
             )}
+          </div>
+          <div className="col mt-3 font-weight-medium text-center">
+            <a href={`${category.more}`} target="blank">
+              <Button
+                className="btn-lang px-4 mx-3"
+                hasShadow
+                style={{ borderRadius: 30 }}
+              >
+                See more..
+              </Button>
+            </a>
           </div>
         </Fade>
       </section>
