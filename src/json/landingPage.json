@@ -63,27 +63,27 @@
       "logo": "/images/icon-github.svg",
       "items": [
         {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "_id": "https://github.com/nicogulo/Bracket_Darling",
+          "name": "Bracket Darling",
           "imageUrl": "/images/image-category-1.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandemi",
 
           "city": "Seoul Flore",
           "isPopular": true
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
+          "_id": "https://github.com/nicogulo/premiere-league",
+          "name": "Premiere League",
           "imageUrl": "/images/image-category-2.jpg",
-          "country": "South Korea",
+          "desc": "Salah satu project yang dikerjakan untuk memenuhi submision dari Dicoding Indonesia. Membuat PWA yang terintregrasi dengan API",
           "city": "Seoul Flore",
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
+          "_id": "https://github.com/nicogulo/mytodolist",
+          "name": "My Todo List",
           "imageUrl": "/images/image-category-3.jpg",
-          "country": "South Korea",
+          "desc": "My Todo List dibuat dengan React Js sederhana yang memanfaatkan props dan state",
           "city": "Seoul Flore",
           "isPopular": false
         },
@@ -91,7 +91,7 @@
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
           "imageUrl": "/images/image-category-4.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": false
         }
@@ -105,7 +105,7 @@
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
           "imageUrl": "/images/image-category-5.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": false
         },
@@ -113,7 +113,7 @@
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
           "imageUrl": "/images/image-category-6.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": false
         },
@@ -121,7 +121,7 @@
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
           "imageUrl": "/images/image-category-7.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": false
         },
@@ -129,7 +129,7 @@
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
           "imageUrl": "/images/image-category-8.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": true
         }
@@ -143,7 +143,7 @@
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
           "imageUrl": "/images/image-category-9.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": false
         },
@@ -151,7 +151,7 @@
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
           "imageUrl": "/images/image-category-10.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": false
         },
@@ -159,7 +159,7 @@
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
           "imageUrl": "/images/image-category-11.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": true
         },
@@ -167,7 +167,7 @@
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
           "imageUrl": "/images/image-category-12.jpg",
-          "country": "South Korea",
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
           "city": "Seoul Flore",
           "isPopular": false
         }

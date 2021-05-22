@@ -20,7 +20,7 @@ export default function Categories({ data }) {
             {category.items.length === 0 ? (
               <div className="row">
                 <div className="col-auto align-items-center">
-                  There is no property at this country
+                  There is no property at this desccountry
                 </div>
               </div>
             ) : (
@@ -46,16 +46,19 @@ export default function Categories({ data }) {
                           />
                         </figure>
                         <div className="meta-wrapper mb-2">
-                          <Button
-                            type="link"
-                            href={`/properties/${item._id}`}
+                          <a
+                            target="blank"
+                            href={`${item._id}`}
                             className="stretched-link d-blok text-gray-800"
                           >
                             <h5 className="h4 px-2">{item.name}</h5>
-                          </Button>
-                          <span className="text-grey-500 px-2">
-                            {item.city}, {item.country}
-                          </span>
+                          </a>
+                          <p
+                            className="text-grey-500 px-2 py-2"
+                            style={{ fontSize: 14 }}
+                          >
+                            {item.desc}
+                          </p>
                         </div>
                       </div>
                     </Fade>
