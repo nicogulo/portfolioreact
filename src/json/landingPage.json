@@ -88,10 +88,10 @@
           "isPopular": false
         },
         {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
+          "_id": "https://foodgarden-43492.web.app/",
+          "name": "Food Garden",
           "imageUrl": "/images/image-category-4.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
+          "desc": "Project untuk tugas akhir, Sistem Rekomendasi Menu menggunakan Line Frontend Framework(LIFF)",
           "city": "Seoul Flore",
           "isPopular": false
         }
@@ -100,74 +100,13 @@
     {
       "_id": "asd1293uasdads1",
       "name": "Design",
+      "logo": "/images/icon-figma.svg",
       "items": [
         {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
+          "_id": "https://www.figma.com/file/3Nkyf1ZwEcmHSPYLepcevK/Food-Delivery-App-Design",
+          "name": "Food Garden",
           "imageUrl": "/images/image-category-5.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-6.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
-          "city": "Seoul Flore",
-          "isPopular": true
-        }
-      ]
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
-      "items": [
-        {
-          "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
-          "city": "Seoul Flore",
-          "isPopular": true
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandem",
+          "desc": "Desain Project untuk tugas akhir, Sistem Rekomendasi Menu menggunakan Line Frontend Framework(LIFF)",
           "city": "Seoul Flore",
           "isPopular": false
         }
