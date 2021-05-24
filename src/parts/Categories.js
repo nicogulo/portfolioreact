@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from 'elements/Button';
 import Fade from 'react-reveal/Fade';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Categories({ data }) {
   return data.map((category, index1) => {
@@ -33,12 +32,6 @@ export default function Categories({ data }) {
                   >
                     <Fade bottom delay={300 * index2}>
                       <div className="card">
-                        {item.isPopular && (
-                          <div className="tag">
-                            Popular{' '}
-                            <span className="font-weight-light">Choice</span>
-                          </div>
-                        )}
                         <figure className="img-wrapper" style={{ height: 180 }}>
                           <img
                             src={item.imageUrl}
@@ -68,10 +61,10 @@ export default function Categories({ data }) {
               })
             )}
           </div>
-          <div className="col mt-3 font-weight-medium text-center">
+          <div className="col mt-5 font-weight-medium text-center">
             <a href={`${category.more}`} target="blank">
               <Button
-                className="btn-lang px-4 mx-3"
+                className="btn-lang px-4 mx-5"
                 hasShadow
                 style={{ borderRadius: 30 }}
               >

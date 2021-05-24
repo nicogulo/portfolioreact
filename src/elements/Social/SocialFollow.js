@@ -1,11 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faFacebook,
   faTwitter,
   faInstagram,
   faReact,
   faJs,
+  faFigma,
 } from '@fortawesome/free-brands-svg-icons';
 
 import './index.scss';
@@ -24,7 +24,7 @@ export default function SocialFollow() {
         href="https://www.facebook.com/learnbuildteach/"
         className="facebook social"
       >
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
+        <FontAwesomeIcon icon={faFigma} size="2x" />
       </a>
       <a href="https://www.twitter.com/jamesqquick" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />

@@ -2,13 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Button from 'elements/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faReact,
-  faJs,
-} from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJs } from '@fortawesome/free-brands-svg-icons';
 import CV from 'assets/CV.pdf';
 
 import '../elements/Social/index.scss';

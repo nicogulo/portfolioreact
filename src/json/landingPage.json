@@ -67,34 +67,25 @@
           "_id": "https://github.com/nicogulo/Bracket_Darling",
           "name": "Bracket Darling",
           "imageUrl": "/images/image-category-1.jpg",
-          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandemi",
-
-          "city": "Seoul Flore",
-          "isPopular": true
+          "desc": "With Team Bracket as a participant at Technoscape BNCC x tiket.com hackathon 3.0. case 1 : Menikmati konser di tengah pandemi"
         },
         {
           "_id": "https://github.com/nicogulo/premiere-league",
           "name": "Premiere League",
           "imageUrl": "/images/image-category-2.jpg",
-          "desc": "Salah satu project yang dikerjakan untuk memenuhi submision dari Dicoding Indonesia. Membuat PWA yang terintregrasi dengan API",
-          "city": "Seoul Flore",
-          "isPopular": false
+          "desc": "Salah satu project yang dikerjakan untuk memenuhi submision dari Dicoding Indonesia. Membuat PWA yang terintregrasi dengan API"
         },
         {
           "_id": "https://github.com/nicogulo/mytodolist",
           "name": "My Todo List",
           "imageUrl": "/images/image-category-3.jpg",
-          "desc": "My Todo List dibuat dengan React Js sederhana yang memanfaatkan props dan state",
-          "city": "Seoul Flore",
-          "isPopular": false
+          "desc": "My Todo List dibuat dengan React Js sederhana yang memanfaatkan props dan state"
         },
         {
           "_id": "https://foodgarden-43492.web.app/",
           "name": "Food Garden",
           "imageUrl": "/images/image-category-4.jpg",
-          "desc": "Project untuk tugas akhir, Sistem Rekomendasi Menu menggunakan Line Frontend Framework(LIFF)",
-          "city": "Seoul Flore",
-          "isPopular": false
+          "desc": "Project untuk tugas akhir, Sistem Rekomendasi Menu menggunakan Line Frontend Framework(LIFF)"
         }
       ]
     },
@@ -107,9 +98,7 @@
           "_id": "https://www.figma.com/file/3Nkyf1ZwEcmHSPYLepcevK/Food-Delivery-App-Design",
           "name": "Food Garden",
           "imageUrl": "/images/image-category-5.jpg",
-          "desc": "Desain Project untuk tugas akhir, Sistem Rekomendasi Menu menggunakan Line Frontend Framework(LIFF)",
-          "city": "Seoul Flore",
-          "isPopular": false
+          "desc": "Desain Project untuk tugas akhir, Sistem Rekomendasi Menu menggunakan Line Frontend Framework(LIFF)"
         }
       ]
     }

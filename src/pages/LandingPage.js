@@ -24,7 +24,7 @@ export default class LandingPage extends Component {
         <Hero refAbout={this.refAbout} data={landingPage.hero} />
         <About refAbout={this.refAbout} data={landingPage.About} />
         <Categories data={landingPage.categories} />
-        <Testimony data={landingPage.testimonial} />
+        {/* <Testimony data={landingPage.testimonial} /> */}
         <Footer />
       </>
     );
