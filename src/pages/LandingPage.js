@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
     this.refAbout = React.createRef();
   }
   componentDidMount() {
-    window.title = `Nico's Portfolio`;
+    window.title = `Nico Gulo's Portfolio`;
     window.scrollTo(0, 0);
   }
   render() {
