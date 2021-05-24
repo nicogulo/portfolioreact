@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Hero from 'parts/Hero';
 import About from 'parts/About';
 import Categories from 'parts/Categories';
-import Testimony from 'parts/Testimony';
+// import Testimony from 'parts/Testimony';
 import Footer from 'parts/Footer';
 
 import landingPage from 'json/landingPage.json';
@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
     this.refAbout = React.createRef();
   }
   componentDidMount() {
-    window.title = 'Staycation | Home';
+    window.title = `Nico's Portfolio`;
     window.scrollTo(0, 0);
   }
   render() {
