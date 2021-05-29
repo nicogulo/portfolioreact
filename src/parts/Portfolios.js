@@ -22,41 +22,49 @@ export default function Portfolios({ data }) {
             />
           </div>
           <div className="container-grid">
-            {portfolio.items.map((item, index2) => {
-              return (
-                <div
-                  className="item column-3 row-1"
-                  key={`portfolio-${index1}-item-${index2}`}
-                >
-                  <Fade bottom delay={300 * index2}>
-                    <div className="card">
-                      <figure className="img-wrapper" style={{ height: 180 }}>
-                        <img
-                          src={item.imageUrl}
-                          alt={item.name}
-                          className="img-cover"
-                        />
-                      </figure>
-                      <div className="meta-wrapper mb-2">
-                        <a
-                          target="blank"
-                          href={`${item._id}`}
-                          className="stretched-link d-blok text-gray-800"
-                        >
-                          <h5 className="h4 px-2">{item.name}</h5>
-                        </a>
-                        <p
-                          className="text-grey-500 px-2 py-2"
-                          style={{ fontSize: 14 }}
-                        >
-                          {item.desc}
-                        </p>
-                      </div>
-                    </div>
-                  </Fade>
+            {portfolio.items.length === 0 ? (
+              <div className="row">
+                <div className="col-auto align-items-center">
+                  There is no property at this portfolio
                 </div>
-              );
-            })}
+              </div>
+            ) : (
+              portfolio.items.map((item, index2) => {
+                return (
+                  <div
+                    className="item column-3 row-1"
+                    key={`portfolio-${index1}-item-${index2}`}
+                  >
+                    <Fade bottom delay={300 * index2}>
+                      <div className="card">
+                        <figure className="img-wrapper" style={{ height: 180 }}>
+                          <img
+                            src={item.imageUrl}
+                            alt={item.name}
+                            className="img-cover"
+                          />
+                        </figure>
+                        <div className="meta-wrapper mb-2">
+                          <a
+                            target="blank"
+                            href={`${item._id}`}
+                            className="stretched-link d-blok text-gray-800"
+                          >
+                            <h5 className="h4 px-2">{item.name}</h5>
+                          </a>
+                          <p
+                            className="text-grey-500 px-2 py-2"
+                            style={{ fontSize: 14 }}
+                          >
+                            {item.desc}
+                          </p>
+                        </div>
+                      </div>
+                    </Fade>
+                  </div>
+                );
+              })
+            )}
           </div>
           <div className="col mt-5 font-weight-medium text-center">
             <a href={`${portfolio.more}`} target="blank">
