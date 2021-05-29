@@ -1,5 +1,5 @@
 {
-  "name": "bwamern",
+  "name": "portfolio-by-nic",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,5 +48,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "I create my portfolio with React",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicogulo/portfolioreact.git"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "javascript"
+  ],
+  "author": "Nico gulo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicogulo/portfolioreact/issues"
+  },
+  "homepage": "https://github.com/nicogulo/portfolioreact#readme"
 }
