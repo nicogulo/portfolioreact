@@ -11,7 +11,9 @@ export default function About(props) {
   return (
     <section className="container pt-5" ref={props.refAbout}>
       <Fade bottom>
-        <h4>About Me</h4>
+        <h4 className="mb-3">
+          About <span className="font-weight-bold">Me</span>
+        </h4>
         <div className="row align-items-center">
           <div className="col-6 pr-2" style={{ width: 530 }}>
             <p

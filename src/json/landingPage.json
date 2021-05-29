@@ -76,10 +76,10 @@
           "desc": "Salah satu project yang dikerjakan untuk memenuhi submision dari Dicoding Indonesia. Membuat PWA yang terintregrasi dengan API"
         },
         {
-          "_id": "https://github.com/nicogulo/mytodolist",
-          "name": "My Todo List",
+          "_id": "https://github.com/nicogulo/foodmenu-api",
+          "name": "Food Menu API",
           "imageUrl": "/images/image-category-3.jpg",
-          "desc": "My Todo List dibuat dengan React Js sederhana yang memanfaatkan props dan state"
+          "desc": "Sebuah JSON-Based API untuk mendapatkan informasi tentang Menu Makanan & Minuman"
         },
         {
           "_id": "https://foodgarden-43492.web.app/",

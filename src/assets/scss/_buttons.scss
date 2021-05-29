@@ -30,7 +30,6 @@
   @include hover() {
     color: $body-color;
     text-decoration: none;
-    transition: all 1s 0s ease;
   }
 
   &:focus,
@@ -182,8 +181,12 @@ input[type='button'] {
     $btn-line-height,
     4px
   );
-  @include transition($btn-transition);
 
+  @include hover() {
+    color: $body-color;
+    text-decoration: none;
+    transition: all 1s 0s ease;
+  }
   &:focus,
   &.focus {
     outline: 0;
