@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-// import Header from 'parts/Header';
+import Header from 'parts/Header';
 import Hero from 'parts/Hero';
 import About from 'parts/About';
 import Categories from 'parts/Categories';
@@ -20,7 +20,7 @@ export default class LandingPage extends Component {
   render() {
     return (
       <>
-        {/* <Header {...this.props}></Header> */}
+        <Header {...this.props}></Header>
         <Hero refAbout={this.refAbout} data={landingPage.hero} />
         <About refAbout={this.refAbout} data={landingPage.About} />
         <Categories data={landingPage.categories} />

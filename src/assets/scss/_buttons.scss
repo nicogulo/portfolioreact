@@ -30,6 +30,7 @@
   @include hover() {
     color: $body-color;
     text-decoration: none;
+    transition: all 1s 0s ease;
   }
 
   &:focus,
