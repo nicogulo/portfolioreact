@@ -1,25 +1,25 @@
-import React, { Component } from "react";
-import Header from "parts/Header";
-import PageDetailtTitle from "parts/PageDetailtTitle";
-import FeaturedImage from "parts/FeaturedImage";
-import PageDetailDescription from "parts/PageDetailDescription";
-import BookingForm from "parts/BookingForm";
-import Categories from "parts/Categories";
-import Testimony from "parts/Testimony";
-import Footer from "parts/Footer";
-import Fade from "react-reveal/Fade";
+import React, { Component } from 'react';
+import Header from 'parts/Header';
+import PageDetailtTitle from 'parts/PageDetailtTitle';
+import FeaturedImage from 'parts/FeaturedImage';
+import PageDetailDescription from 'parts/PageDetailDescription';
+import BookingForm from 'parts/BookingForm';
+import Categories from 'parts/Portfolios';
+import Testimony from 'parts/Testimony';
+import Footer from 'parts/Footer';
+import Fade from 'react-reveal/Fade';
 
-import itemDetails from "json/itemDetails.json";
+import itemDetails from 'json/itemDetails.json';
 
 export default class DetailsPage extends Component {
   componentDidMount() {
-    window.title = "Details Page";
+    window.title = 'Details Page';
     window.scrollTo(0, 0);
   }
   render() {
     const breadcrumb = [
-      { pageTitle: "Home", pageHref: "" },
-      { pageTitle: "House Details", pageHref: "" },
+      { pageTitle: 'Home', pageHref: '' },
+      { pageTitle: 'House Details', pageHref: '' },
     ];
     return (
       <>
