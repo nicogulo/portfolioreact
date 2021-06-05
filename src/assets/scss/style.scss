@@ -94,12 +94,17 @@ header {
 }
 
 .hero {
+  button {
+    .btn-scroll {
+      display: none;
+    }
+  }
   @media only screen and (max-width: 640px) {
     h1 {
       text-align: center;
     }
     button {
-      background-color: black;
+      display: none;
     }
     .hero-card {
       margin: 50px auto;
