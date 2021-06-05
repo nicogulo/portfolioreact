@@ -88,6 +88,25 @@ header {
       }
     }
   }
+  @media only screen and (max-width: 640px) {
+    background: black;
+  }
+}
+
+.hero {
+  @media only screen and (max-width: 640px) {
+    h1 {
+      text-align: center;
+    }
+    button {
+      .btn-lang {
+        background-color: black;
+      }
+    }
+    .hero-card {
+      margin: 50px auto;
+    }
+  }
 }
 
 section {
