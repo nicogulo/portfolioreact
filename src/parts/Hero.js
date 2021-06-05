@@ -29,7 +29,7 @@ export default function Hero(props) {
               <img
                 src={ImageHero_}
                 alt="profile pict frame"
-                className="img-fluid position-absolute"
+                className="img-fluid position-absolute pict-frame"
                 style={{ margin: '0 0 0 -30px' }}
               />
             </div>
