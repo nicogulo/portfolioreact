@@ -34,7 +34,7 @@ export default function Hero(props) {
               />
             </div>
           </div>
-          <div className=" col-6  px-5" style={{ width: 530 }}>
+          <div className=" col-auto  px-5" style={{ width: 530 }}>
             <h1 className="h2 font-weight-bold line-height-1 mb-3">
               Hello, Holla, こんにちは👋, <br />
               I'm Nico Gulo <br />a Frontend Web Developer
