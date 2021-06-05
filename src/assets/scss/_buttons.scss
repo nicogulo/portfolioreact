@@ -181,7 +181,11 @@ input[type='button'] {
     $btn-line-height,
     4px
   );
-
+  // @media only screen and (max-width: 640px) {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  // }
   @include hover() {
     color: $body-color;
     text-decoration: none;
@@ -239,7 +243,9 @@ input[type='button'] {
     $btn-line-height,
     4px
   );
-
+  @media only screen and (max-width: 640px) {
+    margin: auto auto;
+  }
   @include hover() {
     color: $body-color;
     text-decoration: none;

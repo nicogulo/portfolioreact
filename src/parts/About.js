@@ -9,13 +9,13 @@ import '../elements/Social/index.scss';
 
 export default function About(props) {
   return (
-    <section className="container pt-5" ref={props.refAbout}>
+    <section className="container pt-5 about" ref={props.refAbout}>
       <Fade bottom>
         <h4 className="mb-3">
           About <span className="font-weight-bold">Me</span>
         </h4>
         <div className="row align-items-center">
-          <div className="col-6 pr-2" style={{ width: 530 }}>
+          <div className="col col-lg-6 col-sm-12 pr-2" style={{ width: 530 }}>
             <p
               className="h5 mb-4 font-weight-light"
               style={{ lineHeight: '170%' }}
@@ -46,7 +46,10 @@ export default function About(props) {
               </Button>
             </p>
           </div>
-          <div className="col-6 pr-2 text-center" style={{ width: 530 }}>
+          <div
+            className="col col-lg-6 col-sm-12  r-2 text-center"
+            style={{ width: 530 }}
+          >
             <a href={CV} target="blank">
               <Button
                 className="btn px-5"

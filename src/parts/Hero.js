@@ -41,7 +41,7 @@ export default function Hero(props) {
             </h1>
 
             <Button
-              className="btn btn-lang px-5"
+              className="btn btn-scroll px-5"
               hasShadow
               onClick={ShowAbout}
               style={{ borderRadius: 30 }}
