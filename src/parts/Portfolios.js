@@ -13,47 +13,39 @@ export default function Portfolios({ data }) {
             </h4>
           </div>
           <div className="row mb-3 font-weight-medium">
-            <h4 className="col-1">{portfolio.name}</h4>{' '}
+            <h4 className="col-auto">{portfolio.name}</h4>{' '}
             <img
-              className="col-1"
+              className="col-auto"
               src={portfolio.logo}
               alt=""
               style={{ height: 32, paddingLeft: 0 }}
             />
           </div>
-          <div className="container-grid">
+          <div className="wrapper mx-auto">
             {portfolio.items.length === 0 ? (
-              <div className="row">
-                <div className="col-auto align-items-center">
-                  There is no property at this portfolio
-                </div>
-              </div>
+              <div>There is no property at this portfolio</div>
             ) : (
               portfolio.items.map((item, index2) => {
                 return (
-                  <div
-                    className="item column-3 row-1"
-                    key={`portfolio-${index1}-item-${index2}`}
-                  >
+                  <div key={`portfolio-${index1}-item-${index2}`}>
                     <Fade bottom delay={300 * index2}>
                       <div className="card">
-                        <figure className="img-wrapper" style={{ height: 180 }}>
-                          <img
-                            src={item.imageUrl}
-                            alt={item.name}
-                            className="img-cover"
-                          />
-                        </figure>
-                        <div className="meta-wrapper mb-2">
+                        <img
+                          src={item.imageUrl}
+                          alt={item.name}
+                          className="card__img"
+                        />
+
+                        <div className="card__body">
                           <a
                             target="blank"
                             href={`${item._id}`}
                             className="stretched-link d-blok text-gray-800"
                           >
-                            <h5 className="h4 px-2">{item.name}</h5>
+                            <h5 className="h4 card__title px-2">{item.name}</h5>
                           </a>
                           <p
-                            className="text-grey-500 px-2 py-2"
+                            className="card__description text-grey-500 px-2 py-2"
                             style={{ fontSize: 14 }}
                           >
                             {item.desc}
