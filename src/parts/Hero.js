@@ -19,7 +19,7 @@ export default function Hero(props) {
       <section className="container hero" style={{ margin: '120px auto' }}>
         <div className="row align-items-center">
           <div className="col-auto hero-card mr-5">
-            <div style={{ width: 450, height: 380 }}>
+            <div style={{ width: 420, height: 350 }}>
               <img
                 src={ImageHero}
                 alt="profile pict"

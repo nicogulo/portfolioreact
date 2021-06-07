@@ -42,7 +42,7 @@ export default function Portfolios({ data }) {
                             href={`${item._id}`}
                             className="stretched-link d-blok text-gray-800"
                           >
-                            <h5 className="h4 card__title px-2">{item.name}</h5>
+                            <h5 className="card__title px-2">{item.name}</h5>
                           </a>
                           <p
                             className="card__description text-grey-500 px-2 py-2"

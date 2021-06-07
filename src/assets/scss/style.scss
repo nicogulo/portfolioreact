@@ -90,6 +90,7 @@ header {
   }
 }
 
+// Hero
 .hero {
   @media only screen and (max-width: 600px) {
     h1 {
@@ -105,12 +106,6 @@ header {
       .pict-frame {
         display: none;
       }
-      // .pict-hero {
-      //   width: 70%;
-      //   display: flex;
-      //   align-items: center;
-      //   justify-content: center;
-      // }
     }
   }
   @media only screen and (min-width: 600px) {
@@ -143,6 +138,7 @@ header {
   }
 }
 
+// About
 .about {
   @media only screen and (max-width: 600px) {
     h4 {
@@ -151,6 +147,9 @@ header {
     .h5 {
       text-align: center;
       font-size: 18px;
+    }
+    .btn-lang {
+      margin: auto auto;
     }
   }
   @media only screen and (min-width: 600px) {
@@ -210,7 +209,7 @@ section {
   &__img {
     width: 100%;
     object-fit: cover;
-
+    overflow: hidden;
     margin-bottom: 0;
     border-radius: 0.9375rem;
     @media screen and (min-width: 600px) {
@@ -233,11 +232,6 @@ section {
   }
   &__description {
     line-height: 1.2rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 4; /* number of lines to show */
-    -webkit-box-orient: vertical;
   }
 }
 
