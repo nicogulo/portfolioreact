@@ -13,11 +13,11 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-auto" style={{ width: 350 }}>
+          <div className="col-6 text-center" style={{ width: 350 }}>
             <IconText />
             {/* <p className="brand-tagline">Let's Connect.</p> */}
           </div>
-          <div className="col-auto mr-5">
+          <div className="col-6 text-center">
             <h6 className="mt-2">Let's Connect</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">

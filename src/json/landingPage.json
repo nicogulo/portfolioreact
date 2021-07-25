@@ -36,12 +36,19 @@
       "_id": "asd1293uasdads1",
       "name": "Design",
       "logo": "/images/icon-figma.svg",
+      "more": "https://dribbble.com/nicogulo",
       "items": [
         {
           "_id": "https://www.figma.com/file/3Nkyf1ZwEcmHSPYLepcevK/Food-Delivery-App-Design",
           "name": "Food Garden",
           "imageUrl": "/images/image-category-5.jpg",
           "desc": "Desain Project untuk tugas akhir, Sistem Rekomendasi Menu menggunakan Line Frontend Framework(LIFF)"
+        },
+        {
+          "_id": "https://dribbble.com/shots/15812632-StayCation",
+          "name": "Staycation",
+          "imageUrl": "/images/image-category-6.jpg",
+          "desc": "Desain project terinspirasi  dari kelas MERN dari Buildwithangga"
         }
       ]
     }
