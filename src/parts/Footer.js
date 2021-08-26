@@ -9,17 +9,47 @@ import {
 import IconText from 'parts/IconText';
 
 export default function Footer() {
+  let date = new Date().getFullYear();
+
   return (
     <footer>
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-6 text-center" style={{ width: 350 }}>
+          {/* <div className="col-6 text-center" style={{ width: 350 }}>
             <IconText />
-            {/* <p className="brand-tagline">Let's Connect.</p> */}
-          </div>
-          <div className="col-6 text-center">
+            <p className="brand-tagline">Let's Connect.</p>
+          </div> */}
+          <div className="col-12 text-center">
             <h6 className="mt-2">Let's Connect</h6>
-            <ul className="list-group list-group-flush">
+            <div className="row justify-content-center">
+              <div className="col-auto">
+                {' '}
+                <a href="https://instagram.com/_nanithefvck" target="blank">
+                  <p className="brand-tagline">
+                    <FontAwesomeIcon icon={faInstagram} size="1x" />
+                    _nanithefvck
+                  </p>
+                </a>
+              </div>
+              <div className="col-auto">
+                <a href="https://twitter.com/_xnfvk" target="blank">
+                  <p className="brand-tagline">
+                    {' '}
+                    <FontAwesomeIcon icon={faTwitter} size="1x" /> _xnfvk
+                  </p>
+                </a>
+              </div>
+              <div className="col-auto">
+                <a href="https://github.com/nicogulo" target="blank">
+                  <p className="brand-tagline">
+                    {' '}
+                    <FontAwesomeIcon icon={faGithub} size="1x" /> nicogulo
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            {/* <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <a href="https://instagram.com/_nanithefvck" target="blank">
                   <p className="brand-tagline">
@@ -44,11 +74,11 @@ export default function Footer() {
                   </p>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <div className="row">
-          <div className="col text-center copyrights">Copyright 2021</div>
+          <div className="col text-center copyrights">Copyright {date}</div>
         </div>
       </div>
     </footer>
