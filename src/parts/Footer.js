@@ -6,7 +6,7 @@ import {
   faTwitter,
   faGithub,
 } from '@fortawesome/free-brands-svg-icons';
-import IconText from 'parts/IconText';
+// import IconText from 'parts/IconText';
 
 export default function Footer() {
   let date = new Date().getFullYear();
